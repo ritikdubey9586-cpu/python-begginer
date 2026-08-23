@@ -1,0 +1,10 @@
+name="ritik"
+age=21
+fathername="ghanshyamdubey"
+mothername="sadhanadubey" 
+hobby="playbatminton"
+print(age)
+print(name)
+print(fathername)
+print(mothername)
+print(hobby)
