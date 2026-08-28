@@ -22,3 +22,14 @@ elif ( num < 0):
         print("the number is not 10")
 else:
     print("the number is zero")
+
+
+
+
+a=int(input("enter any number"))
+b=int(input("enter any number"))
+
+if (a>b):
+    print("we are real hacker ")
+else :
+    print("we are joker")
