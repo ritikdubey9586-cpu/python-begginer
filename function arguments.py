@@ -34,3 +34,19 @@ average(5, 6)
 
 # Case 3: Pass only one value (will only ask input for 'b')
 # average(a=10)'''
+
+
+
+def ritikbhai(a,b):
+    a=int(input("please enter a first number : "))
+    b=int(input("please enter a second  number : "))
+    print("your given answer is :",a+b)
+def ritikbhai(a,b):
+  if (a>b):
+    print("a is gretaer :")
+  elif (a>b):
+    print(" you will win the game wow ! ")
+  else:
+    print("b is greater :")
+     
+    ritikbhai(a,b)
