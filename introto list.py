@@ -37,3 +37,16 @@ if "ri" in "ritik":
    
 
 
+print(marks[1:-4])
+
+
+# listname[start:end:jumpindex]
+
+print(marks[1:8:2])
+# here this means start from 1 and end will happen with 8 index value and when start with 1 then 2 index value will not come due to jump index we mention which means they will directly jumped 1 to 3 index value.
+lst=[i*i for i in range(10)]
+print(lst)
+
+
+lst=[i*i for i in range(10) if i%2==0]
+print(lst)
