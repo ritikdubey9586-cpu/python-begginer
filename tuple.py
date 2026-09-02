@@ -9,7 +9,7 @@ print(tup[-3])
 
 print(tup[2])
 
-tup[2]=100
+#tup[2]=100
 
 # we cannot change the value of tuple because tuple is immutable.
 # here we change the index value of 2 as 100 but it will give an error because tuple is immutable.
@@ -22,3 +22,9 @@ tup[2]=100
 # example of list method which is not applicable in tuple is append, extend, insert, remove, pop, clear, sort, reverse etc.
 
 # print(tup.reverse)  # This will raise an AttributeError since tuples don't have a reverse method.
+
+
+
+
+
+print(tup.index(6))  # index is used to find the index of the element in the tuple.
