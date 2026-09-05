@@ -16,3 +16,6 @@ print(f"My name is {a} and my friend's name is {b}.")
 print("my name is {{a}} and my friend's name is {{b}}.")
 
 
+txt=49.033
+price=f"the list given for paid is {txt:.2f} dollars"
+print(price)
