@@ -10,3 +10,14 @@ print(square.__doc__)  # Output: This function takes a number as input and retur
 
 
 
+# another example of docstrings 
+
+def calculate_area(width, height):
+    """Calculate the area of a rectangle from its width and height."""
+    return width * height
+
+# 1. Calling the function normally
+print(calculate_area(5, 10))  # Output: 50
+
+# 2. Accessing the documentation we wrote inside the function
+print(calculate_area.__doc__)  # Output: Calculate the area of a rectangle from its width and height.
