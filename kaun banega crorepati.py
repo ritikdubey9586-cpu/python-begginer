@@ -36,3 +36,21 @@ if (name == "nikul"):
 else:
     print("you lost!")
     print("current balance =0")
+
+    print("Welcome to Kaun Banega Crorepati!")
+
+print("who is best person  ?")
+list = ['(a) ritik', '(b) amit', '(c) satyam', '(d) vishal']
+print(list)
+
+name = input("choose correct answer from the list and write :")
+
+
+if (name == "satyam"):
+    print("you won 3 crore ")
+    print("you are eligible for next question  ")
+    print("total balance = 3 crore ")
+else:
+    print("you lost!")
+    print("current balance =0")
+    exit()
