@@ -27,10 +27,18 @@ print(calculate_area.__doc__)  # Output: Calculate the area of a rectangle from 
 
 # another example of docstrings
 
-def addition(a,b):
-    """ this function takes two numbers as input and returns the sum of those numbers."""
-    return a + b
-    a=int(input("enter any number :"))
-    b=int(input("enter any second number :"))
-    print("the sum of two number is : ",a+b)
-print(addition.__doc__)
+def addition(a, b):
+    """this function takes two numbers as input and returns the sum of those numbers."""
+    return a + b  # Yahan function khatam aur value wapas chali jayegi
+
+# 1. Pehle docstring print hogi
+print(addition.__doc__) 
+
+# 2. Ab function ke bahar user se input lijiye
+x = int(input("Enter any number: "))
+y = int(input("Enter any second number: "))
+
+# 3. Ab function ko call kijiye aur result print kijiye
+result = addition(x, y)
+print("The sum of two numbers is:", result)
+
