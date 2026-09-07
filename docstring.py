@@ -21,3 +21,16 @@ print(calculate_area(5, 10))  # Output: 50
 
 # 2. Accessing the documentation we wrote inside the function
 print(calculate_area.__doc__)  # Output: Calculate the area of a rectangle from its width and height.
+
+
+
+
+# another example of docstrings
+
+def addition(a,b):
+    """ this function takes two numbers as input and returns the sum of those numbers."""
+    return a + b
+    a=int(input("enter any number :"))
+    b=int(input("enter any second number :"))
+    print("the sum of two number is : ",a+b)
+print(addition.__doc__)
