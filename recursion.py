@@ -9,3 +9,23 @@ def factorial(num):
 
 n = int(input("Enter a number to find its factorial: "))
 print(factorial(n))
+
+
+
+
+# we do program for fibonacci series with help of recursion.
+
+def fibonacci(a):
+    if ( a == 0 or a== 1):
+        return a
+    else :
+        return  fibonacci(a-1) + fibonacci(a-2)
+    
+
+print(fibonacci(5))
+
+
+
+
+
+
