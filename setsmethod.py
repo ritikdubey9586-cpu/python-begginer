@@ -75,3 +75,10 @@ a=city1.pop()
 print(a)
 
 
+
+
+'''city1={"surat","kim","vadodara","rajkot","ahmedabad"}
+city2={"mumbai","delhi","bangalore","chennai","kolkata"}
+
+a=city1.pop()
+print(a)'''
