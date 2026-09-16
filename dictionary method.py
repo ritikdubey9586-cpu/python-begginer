@@ -17,3 +17,8 @@ print(name)
 
 name.popitem()
 print(name)
+
+
+ritik = { "paise" : 10 , "ruppee" : 20}
+
+ritik.update(paise = 20)
