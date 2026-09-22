@@ -16,3 +16,7 @@ if i < 5 or i > 9:
         pass
 
     raise UsersDoError("value should be between 5 and 9")
+
+
+# most important always learn that we cant use lowercase at starting in usersdoerror we will use UsersDoError or we can't use valueerror we will use ValueError.
+# the above one we should remember always ok.
