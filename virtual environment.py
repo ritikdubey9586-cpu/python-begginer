@@ -11,3 +11,10 @@
 
 # for activation in linus and macos 
 # source myenv/bin/activate
+
+# for activation in windows we used 
+# myenv\scripts\activate.bat
+
+# in terminal we do practice firstly when we write pip install pandas so pandas will be install in global environment means normal 
+# se we used python -m venv myenv 
+# when we write this so we are able to create a virtual env but without activation when wehen we write pip install pandas then 
