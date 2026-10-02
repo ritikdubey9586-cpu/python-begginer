@@ -10,7 +10,9 @@
 #decoding 
 # if the words contains less than 3 letter then simply reverse it 
 # else :
+# remove 3 letter from starting and ending then remove the last letter and append that letter at the starting of the words .
 # remove 3 letter from starting and ending then remove the last letter and append that letter at the starting of the words . 
+#  
 
 
 
