@@ -1,0 +1,3 @@
+import ritik 
+
+ritik.welcome()
