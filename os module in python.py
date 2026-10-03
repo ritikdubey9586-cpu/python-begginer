@@ -15,4 +15,6 @@ for i in range(1,100) :
  os.rename("day/2", f"day/day_{i}")
 
  # there are many more functions in os module in python like os.remove() to remove the file or folder, os.listdir() to list the files and folders in a directory, os.getcwd() to get the current working directory, os.chdir() to change the current working directory, etc.
- 
+
+# listdir karke ki os module mein function hai jisse hum directory ke andar ke files aur folders ko list kar sakte hai.
+files = os.listdir("day")
