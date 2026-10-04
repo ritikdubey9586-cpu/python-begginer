@@ -14,3 +14,9 @@ for i in range(15):
 
 
 # here when we used continue statement then loop will not stop it will continue to print the value of i from 0 to 14 but when i==10 then it will not print hello my name is ritik 
+
+for i in range(15):
+    if i==10:
+        print("the number is 10")
+        continue 
+    print("hello my name is anup ") 
