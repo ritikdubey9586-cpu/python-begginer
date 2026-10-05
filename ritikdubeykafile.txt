@@ -1,1 +1,7 @@
 this is my first file handling in pythonthis is my first file handling 
+
+
+
+21,23,43
+3,4,5
+36,78,98
