@@ -33,3 +33,10 @@ f.close()
 f = open('ritikdubeykafile.txt','a')
 f.write('this is my first file handling ')
 f.close()
+
+
+# agar ham ye chahte hai ki hame close na likhna ho to ham with open ka use karenge or fir hame close nahi likhna padega kyuki with open ke ander file automatically close ho jayega jaise hi with open ka block khatam ho jayega
+
+with open('ritikdubeykafile.txt','r') as f:
+    text = f.read()
+    print(text)
