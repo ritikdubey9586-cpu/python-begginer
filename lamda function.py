@@ -13,3 +13,4 @@ avg = lambda x , y , z : (x + y + z)/2
 print(double(2))
 print(cube(2))
 print(avg(3,5,6))
+
