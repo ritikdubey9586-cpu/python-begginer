@@ -50,3 +50,11 @@ print(emp.display_salary())   # Output: Salary: $85000 (Accessed safely via a pu
 mgr = Manager(name="Bob", salary=120000, project="Cybersecurity")
 mgr.show_details()
 
+
+
+'''3. Access Modifiers means =
+
+Python uses special naming prefixes to control who can see your variables:
+• Public (name): No underscores. Anyone can see it and change it.
+• Protected (_name): One underscore. A warning to other coders: "Only use this inside this class or its child classes."
+• Private (__name): Two underscores. Strictly locked inside its own class. If you try to call it from outside, Python blocks it and throws an error.'''
