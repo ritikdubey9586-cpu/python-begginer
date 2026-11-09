@@ -5,7 +5,7 @@ while (num>0):
         break
     num =num + 1
 
-# basically ye while loop ka example hai jaha pe num ki value 1 se start hai jaise hi num ki value 10 hogi vaise hi while loop khatan ho jayegi matlab aisa ki  num ki value 10 aane se pahele vo positive positive likhta rahega jaise hi 10 hua vaise hi stop ho jayega 
+#  just basically ye while loop ka example hai jaha pe num ki value 1 se start hai jaise hi num ki value 10 hogi vaise hi while loop khatan ho jayegi matlab aisa ki  num ki value 10 aane se pahele vo positive positive likhta rahega jaise hi 10 hua vaise hi stop ho jayega 
 
 
 count =5
